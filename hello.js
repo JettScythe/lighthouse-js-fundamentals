@@ -1,4 +1,4 @@
-const sayHello  = function (name) {
-    console.log("Hello, " + name);
-  }
-sayHello("Jordan")
+const sayHello  = function(name) {
+  console.log("Hello, " + name);
+};
+sayHello("Jordan");

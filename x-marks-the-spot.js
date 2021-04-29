@@ -1,6 +1,6 @@
-const moves = ['north', 'north', 'west', 'west', 'north', 'east','north']  
+const moves = ['north', 'north', 'west', 'west', 'north', 'east','north'];
 
-const finalPosition = function (moves) {
+const finalPosition = function(moves) {
   let parade = [0,0];
   for (const move of moves) {
     if (move === 'north') {
@@ -14,5 +14,5 @@ const finalPosition = function (moves) {
     }
   }
   return parade;
-}
+};
 finalPosition(moves);
